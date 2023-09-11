@@ -44,9 +44,9 @@ body {
   /* background-color: black; */
 }
 .nav-search input {
-  width: 61%;
+  width: 68.3%;
   margin: 2.1rem;
-  border: none;
+  border: 2px solid;
   height: 2.7%;
   align-self: center;
   position: absolute;
