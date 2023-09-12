@@ -50,8 +50,8 @@ body {
   align-self: center;
   position: absolute;
   /* visibility: hidden; */
-  border: none;
   outline: none;
+  border: none;
 }
 .nav-search .icon {
   align-self: center;
