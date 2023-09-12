@@ -50,6 +50,7 @@ body {
   align-self: center;
   position: absolute;
   /* visibility: hidden; */
+  border: none;
   outline: none;
 }
 .nav-search .icon {
@@ -100,29 +101,21 @@ body {
   color: limegreen;
 }
 /* main */
-/* .content {
+.hero {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 20px;
-  position: relative;
-  justify-content: start;
-  align-items: center;
-  margin: 1rem 21rem;
-  max-width: 200%;
-  padding: 1rem;
+  /* border: 2px solid; */
+  justify-content: center;
+  align-self: center;
+  margin: 0;
+  padding: 0;
 }
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.sidebar {
+  border: 1px solid;
+  display: grid;
+  grid-column: span 3;
+  flex-direction: row;
+  height: 200%;
 }
-.column {
-  border: 2px solid blue;
-  max-height: 100%;
-  float: left;
-  display: flex;
-} */
-
 /* card */
 .container {
   padding: 2rem;
